@@ -66,13 +66,13 @@ class EventDetailView extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 16),
-            Text(
-              'Event Date: ${event.eventDate!}',
-              style: const TextStyle(
-                fontSize: 16,
-                color: Colors.black,
-              ),
-            ),
+            // Text(
+            //   'Event Date: ${event.eventDate!}',
+            //   style: const TextStyle(
+            //     fontSize: 16,
+            //     color: Colors.black,
+            //   ),
+            // ),
           ],
         ),
       ),
